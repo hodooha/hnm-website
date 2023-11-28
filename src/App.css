@@ -1,0 +1,161 @@
+.first-line{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+ 
+}
+
+.menu-burger-bar{
+  height: 20px;
+ 
+}
+
+.close-btn{
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  font-size: 20px;
+  border: none;
+  background: none;
+}
+
+.side-menu{
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top:0;
+  left:0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background-color: rgb(255, 187, 0);
+  z-index: 2;
+}
+
+.side-menu-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.menu-btn{
+  border: none;
+  background:none;
+  margin: 5px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.login-button div {
+  margin-left: 5px;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-section img{
+  cursor: pointer;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.menu-list ul {
+  margin: 0;
+}
+
+.menu-list li {
+  padding: 10px;
+}
+
+.menu-area {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px;
+}
+
+.search-area {
+  border-bottom: 2px solid black;
+  display: flex;
+  /* height: 30px; */
+  align-items: center;
+  position: absolute;
+  right: 30px;
+
+}
+
+.search-area input {
+  border: none;
+  margin-left: 5px;
+
+}
+
+.search-area input:focus {
+  outline: none;
+}
+
+.product-card {
+  margin: 5px;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.product-card:hover {
+  scale: 1.1;
+  z-index: 1;
+}
+
+.login-area {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  width: 40em;
+}
+
+.detail {
+  display: flex;
+  justify-content: center;
+
+}
+
+.choice{
+  font-size: 0.8em;
+  color: darkgreen;
+}
+.detail-text div{
+  margin-bottom: 5px;
+}
+
+#dropdown-basic{
+  margin-top: 10px;
+}
+.add-button{
+  width: 500px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 63rem){
+  .menu-area{
+    display: none;
+  }
+}

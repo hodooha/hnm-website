@@ -59,7 +59,7 @@ const Navbar = ({
           </div>
         </div>  
         <div className="first-line">
-          <div>
+          <div className="hide">
             <FontAwesomeIcon icon={faBars} className="menu-burger-bar" onClick={()=>setWidth(250)}/>
           </div>
 

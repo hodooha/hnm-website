@@ -93,10 +93,9 @@
 .search-area {
   border-bottom: 2px solid black;
   display: flex;
-  /* height: 30px; */
   align-items: center;
   position: absolute;
-  right: 30px;
+  right: 10px;
 
 }
 
@@ -154,8 +153,16 @@
   margin-top: 20px;
 }
 
+.hide{
+  visibility: hidden;
+}
+
 @media screen and (max-width: 63rem){
   .menu-area{
     display: none;
+  }
+
+  .hide{
+    visibility: visible;
   }
 }
